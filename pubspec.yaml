@@ -1,0 +1,100 @@
+name: chat_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.1
+  cupertino_icons: ^1.0.2
+  dio: ^5.3.0
+  flutter_secure_storage: ^8.0.0
+  carousel_slider: ^5.0.0
+  open_store: ^0.4.0
+  photo_view: ^0.14.0
+  image_picker: ^0.8.7+5
+  icons_plus: ^4.0.0
+  fluttertoast: ^8.2.2
+  url_launcher: ^6.1.12
+  cached_network_image: ^3.2.3
+  timeago: ^3.4.0
+  email_validator: ^2.1.17
+  sms_otp_auto_verify: ^2.1.0
+  font_awesome_flutter: ^10.5.0
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  intl_phone_field: ^3.2.0
+  pull_to_refresh: ^2.0.0
+  firebase_messaging: ^15.1.5
+  flutter_local_notifications: ^18.0.1
+  socket_io_client: ^2.0.3+1
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+# ============================
+# Assets
+# ============================
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/wallpapers/
+    - assets/images/android/
+    - assets/images/ios/
+
+# ============================
+# Fonts
+# ============================
+
+  fonts:
+    - family: pb
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+    - family: pr
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+    - family: psb
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+
+# ============================
+# Native Splash Screen
+# ============================
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#ffffff"
+  image: assets/native_splash.png
+  android_12:
+    image: assets/native_splash.png
+    image_dark: assets/native_splash.png
+
+# ============================
+# Launcher Icon
+# ============================
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/android/androidAppIcon.png"
+  image_path_ios: "assets/images/ios/iosAppIcon.png"
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"

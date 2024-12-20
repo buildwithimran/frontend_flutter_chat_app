@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459700496535",
+    "project_id": "buildwithimran",
+    "storage_bucket": "buildwithimran.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459700496535:android:56ffeee83fe697db5261d2",
+        "android_client_info": {
+          "package_name": "com.buildwithimran.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQT18_ezP7wUOxJIi9IfpzeqtJo_c01cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
